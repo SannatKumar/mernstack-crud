@@ -32,4 +32,16 @@ And import the bootstrap file in the src/app.js.
 
 The Components folder is created with three components each for the task of creating, editing and listing the student records.
 
+Instal React Router Dom
+
+$ npm install react-router-dom --save
+
+App.js updated with Bootstrap imports like Nav, Navbar, Row, Column, Switch, Route, Link and components file imported and defined for the use.
+
+Routes path are defined inside switch as to which component to redirect.
+
+
+
+
+
 
