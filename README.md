@@ -22,3 +22,12 @@ The project starts with command
 $ npx create-react-app mernstack-myapp    "mernstack-myapp" is the folder and application name.
 
 
+After the app has been created the unnecessary files such as report vitals, logo and icons were deleted and their definition and requirement was also removed from the importing files.
+
+Install react bootstrap.
+
+$ npm install react-bootstrap bootstrap
+
+And import the bootstrap file in the src/app.js.
+
+
