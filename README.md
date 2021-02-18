@@ -30,4 +30,6 @@ $ npm install react-bootstrap bootstrap
 
 And import the bootstrap file in the src/app.js.
 
+The Components folder is created with three components each for the task of creating, editing and listing the student records.
+
 
