@@ -40,6 +40,11 @@ App.js updated with Bootstrap imports like Nav, Navbar, Row, Column, Switch, Rou
 
 Routes path are defined inside switch as to which component to redirect.
 
+In the creating Student section Setting up functions, state and, defining the onsubmit and use in forms are included.
+
+This is some front end for now.
+
+
 
 
 
