@@ -68,6 +68,12 @@ CORS: It’s a node.js package helps in enabling Access-Control-Allow-Origin COR
 bodParser: This package extracts the entire body portion of an incoming request stream and exposes it on req.body.
 
 
+Install the Nodemon
+
+$ npm install nodemon --save
+
+This command install the nodemon dependency to automate the server restarting process.
+
 
 
 
