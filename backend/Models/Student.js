@@ -9,7 +9,7 @@ let studentSchema = new Schema({
         type: String
     },
     rollno: {
-        type: number
+        type: Number
     }
 }, {
     collection: 'students'
