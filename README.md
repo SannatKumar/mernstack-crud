@@ -141,6 +141,25 @@ This command install the http errors package to use in the server file.
 
 # Using Axios to make HTTP requests
 
+Axios is a promise-based Http client for the browser and node.js.
+
+Axios features
+
+Make XMLHttpRequests from the browser
+Handle http requests from node.js
+Supports the Promise API
+Intercept request and response
+Transform request and response data
+Cancel requests
+Self-regulating for JSON data
+Client-side protection from XSRF
+
+Installation Command
+
+$ npm install axios
+
+
+
 
 
 
