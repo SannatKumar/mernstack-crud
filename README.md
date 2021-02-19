@@ -124,10 +124,22 @@ Server.js file is created inside backend folder.
 Server.js file includes all the necessary imports such as express, mongoose, cors, bodyParser and, dbconfig file.
 The database connectiona and the ports are also defined here.
 
+# Created API
 
+REST API	URL
+GET	http://localhost:4000/students
+POST	/students/create-student
+GET	/students/edit-student/id
+PUT	/students/update-student/id
+DELETE	/students/delete-student/id
 
+# Http-Errors
 
+$ npm install http-errors --save
 
+This command install the http errors package to use in the server file.
+
+# Using Axios to make HTTP requests
 
 
 
