@@ -79,6 +79,7 @@ This command install the nodemon dependency to automate the server restarting pr
 
 Create a database folder inside backend folder we created earlier.
 create a db.js file inside database folder.
+Locally it doesn't require username and password.
 
 # Mongodb command for general purposes
 
@@ -100,7 +101,21 @@ Shows all the collection
 
 $ db.collectionName.find()
 
-Shows all the content of the collection
+Shows all the content of the collection.
+
+# Mongoose Schema
+
+MongoDb Schema is used for interacting with mongoDB database.
+
+This we have done here creating a folder name Models inside backend folder.
+
+Inside Models folder,
+
+Student.js(Schema) file is created and name, email and roll no fields along with their respective data types is declared.
+
+
+
+
 
 
 
