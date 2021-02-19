@@ -75,6 +75,10 @@ $ npm install nodemon --save
 This command install the nodemon dependency to automate the server restarting process.
 
 
+# Setting up MongoDB Database
+
+Create a database folder inside backend folder we created earlier.
+create a db.js file inside database folder.
 
 
 
