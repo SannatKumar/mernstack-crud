@@ -113,6 +113,10 @@ Inside Models folder,
 
 Student.js(Schema) file is created and name, email and roll no fields along with their respective data types is declared.
 
+# Routes 
+
+Route folder is created inside backend to define routes for GET, POST, PUT DELETE method.
+
 
 
 
