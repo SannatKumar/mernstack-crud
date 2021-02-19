@@ -44,6 +44,36 @@ In the creating Student section Setting up functions, state and, defining the on
 
 This is some front end for now.
 
+# Backend Part
+
+A directory named backend is created to keep everything related to backend in same folder.
+
+Inside backend folder,
+
+$ npm init
+
+This command create a package.json file for the backend part of the application.
+
+Next,
+$ npm install mongoose express cors body-parser
+
+This command install the Node dependencies for the MERN stack backend.
+
+Express: It’s a robust Node.js web application framework that helps in creating powerful REST APIs.
+
+MongoDb: It’s a NoSQL document-oriented database for creating a robust web application.
+
+CORS: It’s a node.js package helps in enabling Access-Control-Allow-Origin CORS header.
+
+bodParser: This package extracts the entire body portion of an incoming request stream and exposes it on req.body.
+
+
+
+
+
+
+
+
 
 
 
