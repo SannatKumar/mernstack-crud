@@ -80,6 +80,29 @@ This command install the nodemon dependency to automate the server restarting pr
 Create a database folder inside backend folder we created earlier.
 create a db.js file inside database folder.
 
+# Mongodb command for general purposes
+
+$ mongo
+
+Takes to the moongo terminal
+
+$ show dbs
+
+List all the databases
+
+$ use <databasename>
+
+Enters into the particular database(<databasename>)
+
+$ show collections
+
+Shows all the collection
+
+$ db.collectionName.find()
+
+Shows all the content of the collection
+
+
 
 
 
