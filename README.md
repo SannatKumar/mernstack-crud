@@ -117,6 +117,15 @@ Student.js(Schema) file is created and name, email and roll no fields along with
 
 Route folder is created inside backend to define routes for GET, POST, PUT DELETE method.
 
+# Server.js file
+
+Server.js file is created inside backend folder.
+
+Server.js file includes all the necessary imports such as express, mongoose, cors, bodyParser and, dbconfig file.
+The database connectiona and the ports are also defined here.
+
+
+
 
 
 
