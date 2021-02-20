@@ -160,38 +160,7 @@ $ npm install axios
 
 Use axios post method to send student's data to the mongoDB server.
 
-<header className ="App-header">
-        <Navbar bg="dark" variant="dark">
-          <Container>
 
-            <Navbar.Brand>
-              <Link to={"/create-student.component"} className = "nav-link">
-                React MERN Stack App
-              </Link>
-            </Navbar.Brand>
-
-            <Nav className="justify-content-end">
-              <Nav>
-                <Link to={"/create-student"} className="nav-link">
-                  Create Student
-                </Link>
-              </Nav>
-              <Nav>
-                <Link to={"/edit-student/:id"} className="nav-link">
-                  Edit Student
-                </Link>
-              </Nav>
-              
-              <Nav>
-                <Link to={"/student-list"} className="nav-link">
-                  Student List
-                </Link>
-              </Nav>
-
-            </Nav>
-          </Container>
-        </Navbar>
-      </header>
 
 
 
