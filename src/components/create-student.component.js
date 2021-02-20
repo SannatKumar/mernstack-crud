@@ -75,6 +75,7 @@ export default class CreateStudent extends Component{
                 </Button>
                 </Form>
             </div>
-            );
+        );
     }
 }
+
