@@ -57,6 +57,7 @@ function App() {
               <div className="wrapper">
                 <Switch>
                   <Route exact path="/" component={Home} />
+                  <Route exact path="/home" component={Home} />
                   <Route path="/create-student" component={CreateStudent} />
                   <Route path="/edit-student/:id" component={EditStudent} />
                   <Route path="/student-list" component={StudentList} />                  
