@@ -141,7 +141,7 @@ This command install the http errors package to use in the server file.
 
 # Using Axios to make HTTP requests
 
-Axios is a promise-based Http client for the browser and node.js.
+Axios is a promise-based Http client for the browser and node.js. It is installed insise the mernstack-myapp folder.
 
 Axios features
 
@@ -157,6 +157,41 @@ Client-side protection from XSRF
 Installation Command
 
 $ npm install axios
+
+Use axios post method to send student's data to the mongoDB server.
+
+<header className ="App-header">
+        <Navbar bg="dark" variant="dark">
+          <Container>
+
+            <Navbar.Brand>
+              <Link to={"/create-student.component"} className = "nav-link">
+                React MERN Stack App
+              </Link>
+            </Navbar.Brand>
+
+            <Nav className="justify-content-end">
+              <Nav>
+                <Link to={"/create-student"} className="nav-link">
+                  Create Student
+                </Link>
+              </Nav>
+              <Nav>
+                <Link to={"/edit-student/:id"} className="nav-link">
+                  Edit Student
+                </Link>
+              </Nav>
+              
+              <Nav>
+                <Link to={"/student-list"} className="nav-link">
+                  Student List
+                </Link>
+              </Nav>
+
+            </Nav>
+          </Container>
+        </Navbar>
+      </header>
 
 
 
